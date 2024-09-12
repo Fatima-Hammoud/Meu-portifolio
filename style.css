@@ -1,0 +1,160 @@
+
+  
+
+body{ 
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/5383237-3d-render-moderno-business-office-manager-room-with-3d-design-interior-for-company-wall-logo-mockup-gratis-foto.jpg);
+    background-size: auto 
+}
+  
+
+
+h1{
+    background-color:#f1f0ec;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    text-decoration:double ;
+    text-shadow: 7px 7px 9px #A3A2A0;
+    text-transform:uppercase ;
+    letter-spacing: 5px;
+    
+    
+}
+
+h2{
+    background-color: #f1f0ec;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-shadow: 2px 2px 4px #A4A8B1;
+    text-align: center;
+    
+}
+
+
+
+
+#container{
+    background-color: #ffffff73;
+    background-attachment: fixed;
+    color: #464847;
+    text-align: center;
+    text-decoration-color: #A4A8B1;
+    border-radius: 5px;
+    width: 70vw;
+    height: auto;
+    padding: 40px;
+    margin: auto;
+
+}
+
+p{  
+    color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moving-text {
+    display:inline-block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #A4A8B1;
+    text-shadow:1px 1px 2px #A4A8B1;
+    transition: transform 0.5s ease;
+    
+}
+
+.moving-text:hover {
+    transform: translateX(10px);
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+.container {
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+}
+#portfolio {
+    padding: 20px;
+    
+}
+#portfolio h2 {
+    text-align: center;
+}
+.project {
+    display:contents;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.project img {
+    max-width: 70%;
+    height: 70%;
+}
+.project h3 {
+    margin-top: 0;
+}
+.project p {
+
+    font-size: 1em;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+.project a  { text-decoration: none;
+    color: rgb(15, 15, 143);
+
+}
+
+footer {
+    background-color:white;
+    color: black;
+}
+
+footer:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0px 15px;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav  a:hover {
+    text-decoration: underline;
+    background-color: #575757;
+    color: #fff;
+    border-radius: 5px;
+}
